@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE STUDENT_REPORT SYSTEM "student_report.dtd">
+
+<STUDENT_REPORT>
+    <STUDENT_INFO>
+        <FULL_NAME>Pham Huu Dung</FULL_NAME>
+        <CLASS>C2309L</CLASS>
+        <GENDER>MALE</GENDER>
+        <DATE_OF_BIRTH>07/07/2004</DATE_OF_BIRTH>
+    </STUDENT_INFO>
+    <GRADES>
+        <SUBJECT>
+            <NAME>C PROGRAMMING</NAME>
+            <SEM_1>8</SEM_1>
+            <SEM_2>10</SEM_2>
+            <AVG_SCORE>9</AVG_SCORE>
+        </SUBJECT>
+        <SUBJECT>
+            <NAME>PHP</NAME>
+            <SEM_1>8</SEM_1>
+            <SEM_2>8</SEM_2>
+            <AVG_SCORE>8</AVG_SCORE>
+        </SUBJECT>
+    </GRADES>
+</STUDENT_REPORT>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PRODUCT_LIST SYSTEM "product_list.dtd">
+<PRODUCT_LIST>
+    <PRODUCT>
+        <NAME>Product 1</NAME>
+        <DESCRIBE>DESCRIBE 1</DESCRIBE>
+        <PRICE>100</PRICE>
+        <QUANTITY>1</QUANTITY>
+        <DATE>15/07/2004</DATE>
+    </PRODUCT>
+    <PRODUCT>
+        <NAME>Product 2</NAME>
+        <DESCRIBE>DESCRIBE 2</DESCRIBE>
+        <PRICE>200</PRICE>
+        <QUANTITY>2</QUANTITY>
+        <DATE>16/07/2004</DATE>
+    </PRODUCT>
+    <PRODUCT>
+        <NAME>Product 3</NAME>
+        <DESCRIBE>DESCRIBE 3</DESCRIBE>
+        <PRICE>300</PRICE>
+        <QUANTITY>3</QUANTITY>
+        <DATE>17/07/2004</DATE>
+    </PRODUCT>
+    <PRODUCT>
+        <NAME>Product 3</NAME>
+        <DESCRIBE>DESCRIBE 3</DESCRIBE>
+        <PRICE>300</PRICE>
+        <QUANTITY>3</QUANTITY>
+        <DATE>17/07/2004</DATE>
+    </PRODUCT>
+    <PRODUCT>
+        <NAME>Product 4</NAME>
+        <DESCRIBE>DESCRIBE 4</DESCRIBE>
+        <PRICE>400</PRICE>
+        <QUANTITY>4</QUANTITY>
+        <DATE>18/07/2004</DATE>
+    </PRODUCT>
+    <PRODUCT>
+        <NAME>Product 5</NAME>
+        <DESCRIBE>DESCRIBE 5</DESCRIBE>
+        <PRICE>500</PRICE>
+        <QUANTITY>5</QUANTITY>
+        <DATE>19/07/2004</DATE>
+    </PRODUCT>
+</PRODUCT_LIST>
