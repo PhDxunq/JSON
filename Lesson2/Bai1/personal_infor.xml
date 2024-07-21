@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PERSONAL_INFOR 
+xmlns="https://hocvietcode.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://hocvietcode.com personal_infor.xsd"
+>
+        <NAME>Pham Huu Dung</NAME>
+        <AGE>20</AGE>
+        <ADDRESS>Ha Noi</ADDRESS>
+        <PHONE>12345</PHONE>
+
+</PERSONAL_INFOR>

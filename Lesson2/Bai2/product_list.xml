@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductList 
+xmlns="https://hocvietcode.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://hocvietcode.com product_list.xsd"
+>
+    <Product type="simple">
+        <Name>Product A</Name>
+        <Price>20</Price>
+        <Description>Basic</Description>
+    </Product>
+    <Product type="variable">
+        <Name>Product B</Name>
+        <Price>50</Price>
+        <Description>Red</Description>
+    </Product>
+</ProductList>
