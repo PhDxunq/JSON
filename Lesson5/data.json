@@ -1,0 +1,79 @@
+{
+    "company": "Tech Innovators Inc.",
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "age": 29,
+        "isPermanent": true,
+        "address": {
+          "street": "123 Main St",
+          "city": "Springfield",
+          "state": "IL",
+          "postalCode": "62701"
+        },
+        "skills": [
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "projects": [
+          {
+            "projectId": "P123",
+            "projectName": "Website Redesign",
+            "startDate": "2023-01-15",
+            "endDate": null,
+            "status": "Ongoing",
+            "budget": 150000.50
+          },
+          {
+            "projectId": "P124",
+            "projectName": "Mobile App Development",
+            "startDate": "2022-05-20",
+            "endDate": "2023-02-28",
+            "status": "Completed",
+            "budget": 200000.00
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "age": 34,
+        "isPermanent": false,
+        "address": {
+          "street": "456 Oak St",
+          "city": "Metropolis",
+          "state": "NY",
+          "postalCode": "10001"
+        },
+        "skills": [
+          "Python",
+          "Django",
+          "Machine Learning"
+        ],
+        "projects": []
+      }
+    ],
+    "departments": [
+      {
+        "deptId": "D001",
+        "deptName": "Engineering",
+        "location": "Building A"
+      },
+      {
+        "deptId": "D002",
+        "deptName": "Marketing",
+        "location": "Building B"
+      }
+    ],
+    "policies": {
+      "remoteWork": true,
+      "vacationDays": 15,
+      "healthInsurance": {
+        "provider": "HealthCare Inc.",
+        "plan": "Gold",
+        "premium": 300.75
+      }
+    }
+  }

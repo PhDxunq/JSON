@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <div class="policies">
+        <h2>Privacy Policy</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>remote work</th>
+                    <th>Vacation days</th>
+                    <th>Health Insurance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="employees">
+        <h2>Employees</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Permanent</td>
+                    <td>Address</td>
+                    <td>Skills</td>
+                    <td>Projects</td>
+                </tr>
+            </thead>
+            <tbody id="employee-list"></tbody>
+        </table>
+    </div>
+    <div class="departments">
+        <h2>Departments</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Department ID</th>
+                    <th>Department Name</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody id="department-list"></tbody>
+        </table>
+    </div>
+    <script>
+        const fetchData = async ( ) =>{
+            let response = await fetch('http://localhost/JSON/Lesson5/data.json');
+        
+            let data = await response.json();
+            console.log(data);
+            document.querySelector('h1').innerHTML = data.company;
+            let policies = data.policies;
+            document.querySelector('.policies tbody tr td:first-child').innerHTML = (policies.remoteWork === true) ? 'Yes' : 'No';
+            document.querySelector('.policies tbody tr td:nth-child(2)').innerHTML = policies.vacationDays;
+            document.querySelector('.policies tbody tr td:nth-child(3)').innerHTML = `<ul><li>Provider: ${policies.healthInsurance.provider}</li><li>Plan: ${policies.healthInsurance.plan}</li><li>Premium: ${policies.healthInsurance.premium}</li></ul>`;
+            
+            let employees = data.employees;
+                let employeeList = document.getElementById('employee-list');
+                employees.forEach(employee => {
+                    let row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${employee.id}</td>
+                        <td>${employee.name}</td>
+                        <td>${employee.age}</td>
+                        <td>${employee.isPermanent ? 'Yes' : 'No'}</td>
+                        <td>
+                            <ul>
+                                <li>Street: ${employee.address.street}</li>
+                                <li>City: ${employee.address.city}</li>
+                                <li>State: ${employee.address.state} </li>
+                                <li>PostalCode: ${employee.address.postalCode}</li>
+                            </ul>
+                        </td>
+                        <td>${employee.skills.join(', ')}</td>
+                        <td>
+                            <ul>
+                                <li>projectId: ${employee.projects}</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </td>
+                    `;
+                    employeeList.appendChild(row);
+                });
+        }
+
+        fetchData();
+      
+    </script>
+    
+</body>
+</html>
