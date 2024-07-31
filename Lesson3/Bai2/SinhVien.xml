@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="SinhVien.xsl" type="text/xsl"?>
+<SinhVienList 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="SinhVien.xsd">
+    <SinhVien>
+        <STT>1</STT>
+        <MaSV>sv01</MaSV>
+        <TenSV>Phan Tuấn Cường</TenSV>
+        <GioiTinh>Nam</GioiTinh>
+        <NgaySinh>03/03/1993</NgaySinh>
+        <MaLop>CNTT14</MaLop>
+    </SinhVien>
+    <SinhVien>
+        <STT>1</STT>
+        <MaSV>sv02</MaSV>
+        <TenSV>Phan Tuấn Cường</TenSV>
+        <GioiTinh>Nam</GioiTinh>
+        <NgaySinh>08/03/1993</NgaySinh>
+        <MaLop>CNTT14</MaLop>
+    </SinhVien>
+    <SinhVien>
+        <STT>3</STT>
+        <MaSV>sv03</MaSV>
+        <TenSV>Vương Chí Dũng</TenSV>
+        <GioiTinh>Nam</GioiTinh>
+        <NgaySinh>14/04/1991</NgaySinh>
+        <MaLop>CNTT14</MaLop>
+    </SinhVien>
+    <SinhVien>
+        <STT>4</STT>
+        <MaSV>sv04</MaSV>
+        <TenSV>Phạm Đức Nguyên</TenSV>
+        <GioiTinh>Nam</GioiTinh>
+        <NgaySinh>27/07/1993</NgaySinh>
+        <MaLop>TCKT14</MaLop>
+    </SinhVien>
+    <SinhVien>
+        <STT>5</STT>
+        <MaSV>sv05</MaSV>
+        <TenSV>	Trương Mỹ Yến Nhi</TenSV>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgaySinh>03/10/1993</NgaySinh>
+        <MaLop>TCKT14</MaLop>
+    </SinhVien>
+    <SinhVien>
+        <STT>6</STT>
+        <MaSV>sv06</MaSV>
+        <TenSV>Hồ Võ Thanh Tùng	</TenSV>
+        <GioiTinh>Nam</GioiTinh>
+        <NgaySinh>03/03/1993</NgaySinh>
+        <MaLop>TCKT14</MaLop>
+    </SinhVien>
+</SinhVienList>
