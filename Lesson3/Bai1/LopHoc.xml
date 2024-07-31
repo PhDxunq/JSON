@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="LopHoc.xsl" type="text/xsl"?>
+<LopHoc>
+    <Class>
+        <MaLop>CNTT14</MaLop>
+        <TenLop>Công nghệ thông tin 2014</TenLop>
+    </Class>
+    <Class>
+        <MaLop>TCKT14</MaLop>
+        <TenLop>Tài chính kế toán 2014</TenLop>
+    </Class>
+    <Class>
+        <MaLop>TKDH14</MaLop>
+        <TenLop>Thiết kế đồ họa</TenLop>
+    </Class>
+</LopHoc>

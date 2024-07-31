@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="MonHoc.xsl" type="text/xsl"?>
+<ListMonHoc 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="MonHoc.xsd">
+    <MonHoc>
+        <MaMh>CSDL</MaMh>
+        <TenMh>Cơ sở dữ liệu</TenMh>
+        <SoGio>30</SoGio>
+    </MonHoc>
+    <MonHoc>
+        <MaMh>MCB</MaMh>
+        <TenMh>Mạng căn bản	</TenMh>
+        <SoGio>30</SoGio>
+    </MonHoc>
+    <MonHoc>
+        <MaMh>THDC</MaMh>
+        <TenMh>Tin học đại cương</TenMh>
+        <SoGio>45</SoGio>
+    </MonHoc>
+    <MonHoc>
+        <MaMh>THVP</MaMh>
+        <TenMh>Tin học văn phòng</TenMh>
+        <SoGio>45</SoGio>
+    </MonHoc>
+    <MonHoc>
+        <MaMh>XLA</MaMh>
+        <TenMh>Xử lý ảnh</TenMh>
+        <SoGio>45</SoGio>
+    </MonHoc>
+</ListMonHoc>
