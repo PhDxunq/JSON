@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Company.xsl" type="text/xsl"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Company.xsd">
+    <department>
+        <departmentID>D001</departmentID>
+        <departmentName>Human Resources</departmentName>
+        <employees>
+            <employee>
+                <employeeID>E001</employeeID>
+                <employeeName>John Doe</employeeName>
+                <position>Manager</position>
+                <contact>
+                    <email>john.doe@example.com</email>
+                    <phone>123-456-7890</phone>
+                </contact>
+                <salary currency="USD">75000</salary>
+                <hireDate>2015-08-01</hireDate>
+            </employee>
+            <employee>
+                <employeeID>E002</employeeID>
+                <employeeName>Jane Smith</employeeName>
+                <position>Assistant</position>
+                <contact>
+                    <email>jane.smith@example.com</email>
+                    <phone>098-765-4321</phone>
+                </contact>
+                <salary currency="USD">50000</salary>
+                <hireDate>2018-04-15</hireDate>
+            </employee>
+        </employees>
+    </department>
+    <department>
+        <departmentID>D002</departmentID>
+        <departmentName>IT</departmentName>
+        <employees>
+            <employee>
+                <employeeID>E003</employeeID>
+                <employeeName>Alice Brown</employeeName>
+                <position>Developer</position>
+                <contact>
+                    <email>alice.brown@example.com</email>
+                    <phone>456-789-0123</phone>
+                </contact>
+                <salary currency="USD">90000</salary>
+                <hireDate>2017-10-05</hireDate>
+            </employee>
+        </employees>
+    </department>
+</company>
